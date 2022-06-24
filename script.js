@@ -64,4 +64,9 @@ function displayTime() {
   }
 }
 
-// day/night switch
+// color switch
+function changeColor() {
+  let color = document.querySelector('#color-input').value;
+  document.body.style.color = color;
+  // document.querySelectorAll('button').style.backgroundColor = color;
+}
